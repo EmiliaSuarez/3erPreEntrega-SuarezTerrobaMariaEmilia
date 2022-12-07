@@ -10,13 +10,18 @@ body {
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 3.1fr 0.7fr 0.5fr;
-    grid-template-areas: "header" "section1" "section2" "pie"; }
+    grid-template-areas: "header"
+ "section1"
+ "section2"
+ "pie"; }
   body .contenedor2 {
     display: grid;
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 2.2 0.5fr;
-    grid-template-areas: "header" "section3" "pie"; }
+    grid-template-areas: "header"
+ "section3"
+ "pie"; }
 
 .header {
   grid-area: header;
@@ -314,7 +319,10 @@ footer li {
 @media screen and (max-width: 768px) {
   .contenedor {
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "section1" "section2" "pie"; }
+    grid-template-areas: "header"
+ "section1"
+ "section2"
+ "pie"; }
   .header {
     padding: 5px !important; }
   .pie {
@@ -336,7 +344,10 @@ footer li {
 @media screen and (max-width: 600px) {
   .contenedor {
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "section1" "section2" "pie"; }
+    grid-template-areas: "header"
+ "section1"
+ "section2"
+ "pie"; }
   .section1 {
     height: 800px;
     margin: 50px; }
@@ -416,7 +427,10 @@ footer li {
 @media screen and (max-width: 768px) {
   .contenedor2 {
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "section8" "redes" "pie"; }
+    grid-template-areas: "header"
+ "section8"
+ "redes"
+ "pie"; }
   .section8 {
     display: inline-block; }
   .contacto {
@@ -429,7 +443,10 @@ footer li {
 @media screen and (max-width: 600px) {
   .contenedor2 {
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "section8" "redes" "pie"; }
+    grid-template-areas: "header"
+ "section8"
+ "redes"
+ "pie"; }
   .section8 {
     display: inline-block; }
   .contacto {
