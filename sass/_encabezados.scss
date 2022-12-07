@@ -1,0 +1,52 @@
+.header{
+    grid-area: header;
+    display: flex;
+    background: linear-gradient(#e2e1e1,#ecebeb,#f6f6f6,#f6f6f6,#ecebeb,#e2e1e1);
+    justify-content: space-around;
+        & img{
+            width: 250px;
+            margin-right: 100px; 
+        }
+        .logo1{
+            border-radius: 10%;
+            margin:10px;
+            transition: all 1s ease;
+            &:hover{
+                transform: scale(1.1, 1.1);
+            }
+        }
+        .nav-item{
+            margin:20px;
+            font-size: 20px;
+            font-weight: bold;
+            .nav-link{
+                padding: 10px 25px !important;
+                border-radius: 25px;
+            }
+            &:hover{
+                color: white !important;
+                background-color: #f21d2f8d;
+                border-radius: 25px;
+            }
+            .presionado{
+                color: white !important;
+                background-color: #F21D2F;
+            }
+        }
+}
+.pie{
+    grid-area: pie;
+    background-color:rgba(80, 79, 79, 0.072); 
+    background: linear-gradient(#e2e1e1,#ecebeb,#f6f6f6,#f6f6f6,#ecebeb,#e2e1e1);
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    
+}
+footer li{
+    color:  #F21D2F;
+    list-style-type: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}

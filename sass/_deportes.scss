@@ -1,0 +1,106 @@
+.deportes{
+    color: $rojo;
+    font-size: $tamaño;
+    font-weight: $negrita;
+    margin-top: 80px;
+    text-align: center;
+}
+.section3{
+    grid-area: section3;
+    text-align: center;
+    margin-top: $tamaño*2;
+    & h3{
+        font-weight: bold;
+    }
+    & p{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .section4{
+        display: flex;
+        & div{
+            margin: 0px auto;
+            margin-bottom: $tamaño;
+            width: 40%;
+            padding: 20px;
+            height: 550px;
+        }
+        .natacion{
+            background-color:#9dbf21b0;
+            border: #75920bfc solid;
+            & img{
+                width: 376px !important;
+            }
+            & h3{
+                color:#60770d;
+                font-size: 35px;
+                margin-bottom: 15px;
+            }
+        }
+        .futbol{
+            background-color:#36abd9a7;
+            border: $futbol solid;
+            & img{
+                width: 300px !important;
+            }
+            & h3{
+                color: $futbol;
+                font-size: 35px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .section5{
+        display: flex;
+        & div{
+            margin: 0px auto;
+            margin-bottom: 50px;
+            width: 40%;
+            padding: 20px;
+            height: 550px;
+        }
+        .zumba{
+            background-color:#f28705cb;
+            border: $zumba solid;
+            & img{
+                width: 357px !important;
+            }
+            & h3{
+                color: $zumba;
+                font-size: 35px;
+                margin-bottom: 15px;
+            }
+        }
+        .gimnasia{
+            background-color:#f21d79b7;
+            border: $gimnasia solid;
+            & img{
+                width: 300px !important;
+            }
+            & h3{
+                color: $gimnasia;
+                font-size: 35px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .section6{
+        margin: 0px auto;
+        margin-bottom: 80px;
+        width: 93%;
+        padding: 20px;
+        height: 400px;
+        .baile{
+            background-color:#8c1b8497;
+            border: $baile solid ;
+            & img{
+                width: 300px;
+            }
+            & h3{
+                color: $baile;
+                font-size: 35px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

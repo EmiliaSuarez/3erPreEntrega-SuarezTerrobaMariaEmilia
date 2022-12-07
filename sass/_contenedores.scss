@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    .contenedor{
+        display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 3.1fr 0.7fr 0.5fr;
+    grid-template-areas:
+      "header"
+      "section1"
+      "section2"
+      "pie";
+    }
+    .contenedor2{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 2.2 0.5fr;
+    grid-template-areas:
+      "header"
+      "section3"
+      "pie";
+    }
+}

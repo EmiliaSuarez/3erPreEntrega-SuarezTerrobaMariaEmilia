@@ -1,0 +1,62 @@
+.contactoh2{
+    color: $rojo;
+    font-size: $tamaño;
+    font-weight: $negrita;
+    margin: 80px 0px;
+    text-align: center;
+}
+.section8{
+    display: flex;
+    .contacto{
+        width: 50%;
+        & h3{
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: $negrita;
+        }
+        .form-label{
+            font-weight: $negrita;
+        }
+    }
+    .contacto2{
+        text-align: center;
+        width: 50%;
+        & h3{
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: $negrita;
+        }
+    }
+}
+.redes{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+    margin-bottom: 80px;
+    & h3{
+        margin-bottom: 40px;
+        font-weight: $negrita;
+    }
+    & a{
+        color: $negro;
+        text-decoration: none;
+        font-weight:$negrita;
+        display: inline;
+        font-size: $tamaño/2;
+        margin: 0px 20px;
+        &:hover{
+            color: $rojo;
+        }
+    }
+    & p{
+        display: inline;
+        font-size: 20px;
+        margin: 0px 20px;
+    }
+    & img{
+        width: $tamaño;
+        margin: 0px 1px;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,59 @@
+.alquiler{
+    color: $rojo;
+    font-size: $tamaño;
+    font-weight: $negrita;
+    margin: 80px 0px;
+    text-align: center;
+}
+.cansal{
+    margin-bottom: 80px;
+    display: flex;
+    .cancha {
+        margin: 0px auto;
+        width: 40%;
+        padding: 20px;
+        background-image: url(../fotos/cancha.jpg); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: $rojo solid;
+        & h3{
+            color: $blanco;
+            font-size: 40px;
+            text-align: center;
+            font-weight: $negrita;
+        }
+        & p{
+            text-align: center;
+            font-size: 20px;
+            background-color: rgba(245, 245, 245, 0.656);
+            padding: 85px 20px;
+            margin: 30px;
+            font-weight: $negrita;
+        }
+    }
+    .salones{
+        margin: 0px auto;
+        width: 40%;
+        padding: 20px;
+        background-image: url(../fotos/salon.jpg); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: $rojo solid;
+        & h3{
+            color: $blanco;
+            font-size: 40px;
+            text-align: center;
+            font-weight:$negrita;
+        }
+        & p{
+            text-align: center;
+            font-size: 20px;
+            background-color: rgba(245, 245, 245, 0.656);
+            padding: 85px 20px;
+            margin: 30px;
+            font-weight: $negrita;
+        }
+    }
+}

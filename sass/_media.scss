@@ -1,0 +1,189 @@
+/*Para tablet*/
+@media screen and (max-width: 768px){
+    .contenedor{
+          grid-template-columns:1fr;
+          grid-template-areas:
+            "header"
+            "section1"
+            "section2"
+            "pie";
+    }
+    .header{
+        padding: 5px !important;
+        
+    }
+    .pie{
+        padding: 15px !important;
+    }
+    .section1{
+            margin: 50px;
+    }
+    .section1 p{
+            font-size: 15px;
+            padding: 50px;
+    }
+    .section1 h2{
+            font-size: 50px;
+            margin-bottom: 20px;
+    }
+    .carousel-inner{
+        width: 500px !important;
+    }
+    .carousel{
+        margin: 0px 120px !important;
+    }
+    }
+    /*para celular*/
+    @media screen and (max-width: 600px){
+    .contenedor{
+          grid-template-columns: 1fr;
+          grid-template-areas:
+            "header"
+            "section1"
+            "section2"
+            "pie";
+    }
+    
+    .section1{
+            height: 800px;
+            margin: 50px;
+    }
+    .section1 p{
+            font-size: 15px;
+            padding: 50px;
+    }
+    .section1 h2{
+            font-size: 50px;
+            margin-bottom: 20px;
+    }
+    .section2{
+            display: inline-block;
+    }
+    .section2{
+            text-align: center;
+            margin-top: 50px;
+    }
+    .section2 div{
+            margin: 0px auto;
+            width: 83%;
+            padding: 50px;
+    }
+    .section2 div p{
+            font-size: 15px;
+    }
+    .mision{
+           margin-bottom: 60px !important;
+    } 
+    }
+      
+    /*DEPORTES y ALQUILERES*/
+    @media screen and (max-width: 768px){
+    /*Seccion3 Todos*/
+    .section3 p{
+        font-size: 18px;
+    }
+    /*Seccion4*/
+    .natacion img{width: 250px !important;}
+    .futbol img{ width: 250px !important;}
+    /*Seccion5*/
+    .zumba img{width: 250px !important;}
+    
+    .gimnasia img{width: 250px !important;}
+    .gimnasia h3{
+        font-size: 32px;
+    }
+    .cancha p, .salones p{
+        font-size: 15px;
+    }
+    }
+     /*para celular*/
+     @media screen and (max-width: 600px){
+    .section3 h3{
+        font-weight: bold;
+    }
+    .section3 p{
+        font-size: 15px;
+    }
+    /*Seccion4*/
+    .section4{
+        display: inline-block;
+    }
+    .section4 div{
+        width: 83%;
+        height: 450px;
+    }
+    .natacion img{width: 250px !important;}
+    .futbol img{ width: 250px !important;}
+    /*Seccion5*/
+    .section5{
+        display: inline-block;
+    }
+    .section5 div{
+         width: 83%;
+        height: 450px;
+    }
+    .zumba img{width: 250px !important;}
+    .gimnasia img{width: 250px !important;}
+    /*Seccion 6*/
+    .section6 div{
+            width: 83%;
+    }
+    .cancha p, .salones p{
+            font-size: 15px;
+    }
+     }
+    
+    /*CONTACTO*/
+    @media screen and (max-width: 768px){
+    .contenedor2{
+            grid-template-columns: 1fr;
+            grid-template-areas:
+              "header"
+              "section8"
+              "redes"
+              "pie";
+    }
+    .section8{
+        display: inline-block;
+    }
+    .contacto{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .contacto2{
+        width: 100%;
+    }
+    }
+    
+    /*para celular*/
+    @media screen and (max-width: 600px){
+    .contenedor2{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "header"
+        "section8"
+        "redes"
+        "pie";
+    }
+    .section8{
+        display: inline-block;
+    }
+    .contacto{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .redes a{
+        font-size: 20px;
+    }
+    .redes img{
+        width: 30px;
+    }
+    .carousel-inner{
+        width: 400px !important;
+    }
+    .carousel{
+        margin: 0px 100px !important;
+    }
+    
+    }
+    
