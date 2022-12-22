@@ -4,7 +4,7 @@
 
     /*INICIO*/
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 425px) {
     .contenedor{
         display: grid;
         grid-template-columns: 1fr;
@@ -36,7 +36,7 @@
                 display: inline-block;
                 & div{
                     margin: auto;
-                    width: 320px;
+                    width: 425px;
                     padding: 50px ;
                 }
                 & div p{
@@ -55,7 +55,7 @@
       
     /*DEPORTES y ALQUILERES*/
 
-    @media screen and (max-width: 320px){
+    @media screen and (max-width: 425px){
     .contenedor2{
             text-align: center;
              margin: auto;
@@ -78,7 +78,7 @@
                 font-size: 15px;
             }
             .section4 div{
-                width: 320px;
+                width: 425px;
                 height: 470px; 
             }
             .section4 .natacion img{
@@ -88,7 +88,7 @@
                 width: 250px !important;
             }
             .section5 div{
-                width: 320px;
+                width: 425px;
                 height: 470px; 
             }
             .section5 .zumba img{
@@ -98,7 +98,7 @@
                 width: 250px !important;
             }
            .section6 div{
-                width: 320px;
+                width: 425px;
             }
             .section6 .baile img{
                 width: 250px !important
@@ -108,7 +108,7 @@
             }
             .cansal div{
             display: inline-block !important;
-            width: 320px;
+            width: 425px;
             height: 500px;
             margin-bottom: 50px ;
             }
@@ -141,7 +141,7 @@
                 font-size: 15px;
             }
             .mapa{
-                width: 320px;
+                width: 425px;
             }
             .redes a{
                 display: block;

@@ -312,7 +312,7 @@ footer li {
 
 /*para celular*/
 /*INICIO*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .contenedor {
     display: grid;
     grid-template-columns: 1fr;
@@ -335,7 +335,7 @@ footer li {
       display: inline-block; }
       .contenedor .section2 div {
         margin: auto;
-        width: 320px;
+        width: 425px;
         padding: 50px; }
       .contenedor .section2 div p {
         font-size: 15px; }
@@ -345,7 +345,7 @@ footer li {
       font-size: 15px !important; } }
 
 /*DEPORTES y ALQUILERES*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .contenedor2 {
     text-align: center;
     margin: auto; }
@@ -362,28 +362,28 @@ footer li {
     .contenedor2 .section3 p {
       font-size: 15px; }
     .contenedor2 .section4 div {
-      width: 320px;
+      width: 425px;
       height: 470px; }
     .contenedor2 .section4 .natacion img {
       width: 250px !important; }
     .contenedor2 .section4 .futbol img {
       width: 250px !important; }
     .contenedor2 .section5 div {
-      width: 320px;
+      width: 425px;
       height: 470px; }
     .contenedor2 .section5 .zumba img {
       width: 250px !important; }
     .contenedor2 .section5 .gimnasia img {
       width: 250px !important; }
     .contenedor2 .section6 div {
-      width: 320px; }
+      width: 425px; }
     .contenedor2 .section6 .baile img {
       width: 250px !important; }
     .contenedor2 .alquiler {
       font-size: 35px; }
     .contenedor2 .cansal div {
       display: inline-block !important;
-      width: 320px;
+      width: 425px;
       height: 500px;
       margin-bottom: 50px; }
     .contenedor2 .cansal div h3 {
@@ -407,7 +407,7 @@ footer li {
       margin-bottom: 40px;
       font-size: 15px; }
     .contenedor2 .mapa {
-      width: 320px; }
+      width: 425px; }
     .contenedor2 .redes a {
       display: block;
       font-size: 20px;
